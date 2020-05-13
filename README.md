@@ -28,3 +28,16 @@ In this project I have tried to find answers for these following questions using
   * Do users always prefer free apps over paid apps?
 
 > The dataset used in this project is made up of two CSV files, one with [apps.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20Android%20App%20Market%20on%20Google%20Play/datasets/apps.csv) which contains all the details of the applications on Google Play. There are 13 features that describe a given app. and one with [user_reviews.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20Android%20App%20Market%20on%20Google%20Play/datasets/user_reviews.csv) which contains 100 reviews for each app, most helpful first. The text in each review has been pre-processed and attributed with three new features: Sentiment (Positive, Negative or Neutral), Sentiment Polarity and Sentiment Subjectivity.
+
+## 3. [The GitHub History of the Scala Language](https://github.com/ragibayon/Data-Science-Projects/blob/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/The%20GitHub%20History%20of%20the%20Scala%20Language.ipynb)
+
+Open source projects contain entire development histories - who made changes, the changes themselves, and code reviews. In this project, I had to read in, clean up, and visualize the real-world project repository of Scala that spans data from a version control system (Git) as well as a project hosting site (GitHub). With almost 30,000 commits and a history spanning over ten years, Scala is a mature language.
+
+In this project, I have tried to find out:
+
+* Is the project still actively maintained?
+* Who has had the most influence on its development?
+* Who are the experts?
+* Is there mutual trust and friendship among people  in the project?
+
+> The dataset includes the project history of Scala retrieved from Git and GitHub as a set of CSV files. Which has been previously mined and extracted from GitHub, is comprised of three files: [pulls_2011-2013.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pulls_2011-2013.csv) contains the basic information about the pull requests, and spans from the end of 2011 up to (but not including) 2014. [pulls_2014-2018.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pulls_2014-2018.csv) contains identical information, and spans from 2014 up to 2018. [pull_files.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pull_files.csv) contains the files that were modified by each pull request.
