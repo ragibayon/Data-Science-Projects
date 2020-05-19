@@ -41,3 +41,17 @@ In this project, I have tried to find out:
 * Is there mutual trust and friendship among people  in the project?
 
 > The dataset includes the project history of Scala retrieved from Git and GitHub as a set of CSV files. Which has been previously mined and extracted from GitHub, is comprised of three files: [pulls_2011-2013.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pulls_2011-2013.csv) contains the basic information about the pull requests, and spans from the end of 2011 up to (but not including) 2014. [pulls_2014-2018.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pulls_2014-2018.csv) contains identical information, and spans from 2014 up to 2018. [pull_files.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/The%20GitHub%20History%20of%20the%20Scala%20Language/datasets/pull_files.csv) contains the files that were modified by each pull request.
+
+## 4. [A Visual History of Nobel Prize Winners](https://github.com/ragibayon/Data-Science-Projects/blob/master/Python/A%20Visual%20History%20of%20Nobel%20Prize%20Winners/A%20Visual%20History%20of%20Nobel%20Prize%20Winners.ipynb)
+
+The Nobel Prize is perhaps the world's most well known scientific award. Every year it is given to scientists and scholars in chemistry, literature, physics, medicine, economics, and peace. The first Nobel Prize was handed out in 1901, and at that time the prize was Eurocentric and male-focused, but nowadays it's not biased in any way. Surely, right? In this project, I got to explore patterns and trends in over 100 years worth of Nobel Prize winners.
+
+I tried to find answers to these following questions in this project using a data-driven approach:
+
+* What characteristics do the prize winners have?
+* Which country gets it most often and is there any USA dominance?
+* And has anybody gotten it twice or more?
+* Age distributions between prize categories.
+* Oldest and youngest winners
+
+> The dataset used in this project is [nobel.csv](https://raw.githubusercontent.com/ragibayon/Data-Science-Projects/master/Python/A%20Visual%20History%20of%20Nobel%20Prize%20Winners/datasets/nobel.csv) which was downloaded from The Nobel Foundation on [Kaggle](https://www.kaggle.com/nobelfoundation/nobel-laureates).
